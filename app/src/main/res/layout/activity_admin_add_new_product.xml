@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProduct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AdminAddProduct">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/select_product_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/ic_menu_camera"/>
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textImeMultiLine"
+                android:layout_marginTop="20sp"
+                android:padding="20dp"
+                android:hint="Product Name..."
+
+                android:background="@color/cardview_light_background"/>
+
+            <EditText
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textImeMultiLine"
+                android:layout_marginTop="20sp"
+                android:padding="20dp"
+                android:hint="Product Description..."
+
+                android:background="@color/cardview_light_background"/>
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textImeMultiLine"
+                android:layout_marginTop="20sp"
+                android:padding="20dp"
+                android:hint="Product Price..."
+
+                android:background="@color/cardview_light_background"/>
+
+            <Button
+                android:id="@+id/add_new_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Product"
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:background="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

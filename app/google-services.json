@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514469730851",
+    "project_id": "onlinefruitvendor",
+    "storage_bucket": "onlinefruitvendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514469730851:android:1503a27970eddc63f9ef96",
+        "android_client_info": {
+          "package_name": "com.example.onlinefruitvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514469730851-qleppsoa1ecuil8cl9aqouns0ba83v6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinefruitvendor",
+            "certificate_hash": "1c428edfd0beeb723f3f3aa052490cda3a83595b"
+          }
+        },
+        {
+          "client_id": "514469730851-7g157brfcj5f6a28pc3nv154f0hig0ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnpyllSGvmKKRjAAGqRI3AuisVCb2K_1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514469730851-7g157brfcj5f6a28pc3nv154f0hig0ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
